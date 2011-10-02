@@ -1,0 +1,7 @@
+REQUIREMENTS:
+- timezone
+- pinax (for the account models)
+
+TODO:
+- remove the call to Account.objects.get_for_user(). It's not present in the default implementation of the Account model.
+
